@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brett Lein: Contact</title>
+
+<link rel="icon" type="image/x-icon" href="/icons/favicon-32x32.png">
+
+<!--Script-->
+<script src="scripts.js"></script>
+
+
+<!--Stylesheet-->
+<link rel="stylesheet" href="styles.css">
+
+<!--Google fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<!--Navbar Desktop-->
+<nav class="nav">
+<div class="nav__list">
+<li class="nav__listitem"><a href="index.html">About</a>
+<ul class="nav__listitemdrop">
+<li><a href="#">Bio</li></a>
+<li><a href="#">Skills</li></a>
+<li><a href="#">Certificates</li></a>
+</ul>
+</li>
+<li class="nav__listitem"><a href="contact.html">Contact</a>
+<ul class="nav__listitemdrop">
+<li><a href="#">Socials</li></a>
+<li><a href="#">Email</li></a>
+<li><a href="#">Location</li></a>
+</ul>
+</li>
+<li class="nav__listitem"><a href="#">Portfolio</li></a>
+<li class="nav__listitemicon" href="javascript:void(0);" onclick="mobileToggle()"><img src="/icons/list.svg" height="45px"></li>
+</div>
+</nav>
+    
+<!--Navbar Mobile-->
+<nav class="navmobile" id="navMobile">
+<ul class="navmobile__list">
+<li class="navmobile__listicon" href="javascript:void(0);" onclick="mobileToggle()"><img src="/icons/x-lg.svg" height="40px"></li>
+<li class="navmobile__listitem" href="javascript:void(0);" onclick="Dropabout()">About <img src="/icons/down-arrow-svgrepo-com.svg" width="12px"> 
+<ul class="navmobile__listitemdrop" id="dropabout">
+<li>Bio</li>
+<li>Skills</li>
+<li>Certificates</li>
+</li>
+</ul>
+<li class="navmobile__listitem" href="javascript:void(0);" onclick="Dropcontact()">Contact <img src="/icons/down-arrow-svgrepo-com.svg" width="12px"> 
+<ul class="navmobile__listitemdrop" id="dropcontact">
+<li>Socials</li>
+<li>Email</li>
+<li>Location</li>
+</li>
+</ul>
+<li class="navmobile__listitem">Portfolio</li>
+</ul>
+</nav>
+
+<container class="portfoliohead">
+<div class="portfoliohead__left">
+<h1>My Portfolio.</h1>
+<p>Feel free to browse through my work, past and present. I am constantly updating this section as more projects are completed.</p>
+</div>
+<div class="portfoliohead__right">
+<img src="/portfoliopics/portfolio main pic.png" alt="portfolio" width="100%" height="100%">
+</div>
+</container>
+
+</html>

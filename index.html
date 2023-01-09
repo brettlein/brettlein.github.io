@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brett Lein: Site</title>
+
+<link rel="icon" type="image/x-icon" href="/icons/favicon-32x32.png">
+
+<!--Script-->
+<script src="scripts.js"></script>
+
+
+<!--Stylesheet-->
+<link rel="stylesheet" href="styles.css">
+
+<!--Google fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!--Navbar Desktop-->
+<nav class="nav">
+<div class="nav__list">
+<li class="nav__listitem"><a href="index.html">About</a>
+<ul class="nav__listitemdrop">
+    <li><a href="#">Bio</li></a>
+    <li><a href="#">Skills</li></a>
+    <li><a href="#">Certificates</li></a>
+</ul>
+</li>
+<li class="nav__listitem"><a href="contact.html">Contact</a>
+<ul class="nav__listitemdrop">
+    <li><a href="#">Socials</li></a>
+    <li><a href="#">Email</li></a>
+    <li><a href="#">Location</li></a>
+</ul>
+</li>
+<li class="nav__listitem"><a href="#">Portfolio</li></a>
+<li class="nav__listitemicon" href="javascript:void(0);" onclick="mobileToggle()"><img src="/icons/list.svg" height="45px"></li>
+</div>
+</nav>
+
+<!--Navbar Mobile-->
+<nav class="navmobile" id="navMobile">
+<ul class="navmobile__list">
+<li class="navmobile__listicon" href="javascript:void(0);" onclick="mobileToggle()"><img src="/icons/x-lg.svg" height="40px"></li>
+<li class="navmobile__listitem" href="javascript:void(0);" onclick="Dropabout()">About <img src="/icons/down-arrow-svgrepo-com.svg" width="12px"> 
+<ul class="navmobile__listitemdrop" id="dropabout">
+    <li>Bio</li>
+    <li>Skills</li>
+    <li>Certificates</li>
+</li>
+</ul>
+<li class="navmobile__listitem" href="javascript:void(0);" onclick="Dropcontact()">Contact <img src="/icons/down-arrow-svgrepo-com.svg" width="12px"> 
+<ul class="navmobile__listitemdrop" id="dropcontact">
+    <li>Socials</li>
+    <li>Email</li>
+    <li>Location</li>
+</li>
+</ul>
+<li class="navmobile__listitem">Portfolio</li>
+</ul>
+</nav>
+
+<!--Heading Container & Nav Buttons-->
+<container class="homecontainer1">
+
+<div class="text">
+<h1>Hi there I'm Brett, welcome to my page.</h1>
+<h3>I'm an aspirational web developer, and design enthusiast.</p>My website is currently under construction, however feel free to look around!</h3>
+</div>
+
+<div class="buttons">
+<a href="contact.html" class="buttons__home">Contact</a>
+<a href="#" class="buttons__home">Portfolio</a>
+</div>
+
+</container>
+
+<!--About Me Section-->
+<container class="aboutcontainer">
+<div class="aboutsection">
+<h1>More About Me</h1>
+<p>Being born in the late 90's, I am no stranger to the web. In watching the internet grow, I have always had a passion for the design aspect, and how much the overall aesthetic and standards, aswell as trends of webpages/applications have changed.</p><p>For over a decade, I have been in some form intertwined with aspects of web design, whether it be doing graphic design in my teen years, to professional logo design later on. Recently however I have dived into the world of web development, and learning the back/front end of things to put my design enthusiasm to more effective use.</p><p>I have currently completed freelance website design projects, aswell as various HTML and CSS challenges. I am eager to branch out into the world of web development, and hope this website aswell as my professional portfolio can capture and display my passion for the world wide web.</p>
+</div>
+</container>
+
+<!--Skills Section & Sliders-->
+<container class="skillscontainer">
+<div class="skillssection">
+<h1>Skills & Experience</h1>
+<p>My skills mainly include HTML and CSS which are my main passion. I try and stretch those two to their fullest
+    capacities, and then use JavaScript to pick up slack when needed.</p>
+
+<p>I have been involved in web design dating back to over a decade ago. I am new to web development but have freelance
+    website projects, aswell as certification coursework, and example front end projects to hone in my skills.</p>
+</div>
+
+<div class="skillsliders">
+<h1>HTML</h1>
+<div class="sliderhtml">
+<div></div>
+<div class="circlehtml"></div>
+</div>
+
+<h1>CSS</h1>
+<div class="slidercss">
+<div></div>
+<div class="circlecss"></div>
+</div>
+
+<h1>JavaScript</h1>
+<div class="sliderjs">
+<div></div>
+<div class="circlejs"></div>
+</div>
+
+</div>
+</container>
+
+<!--Certification Cards-->
+<container class="certcontainer">
+<h1>Certifications</h1>
+<div class="certsection">
+<h3>Computer Science</h3>
+<a href="https://drive.google.com/file/d/1Aj03jbFTRYBTfo3rSsSUbgzf396CAjV_/view" target="blank_">Harvard's CS50X Online</a>
+<p>Introduction to the intellectual enterprises of computer science and the art of programming. This course teaches students how to think algorithmically and solve problems efficiently...</p>
+</div>
+</container>
+
+</body>
+</html>
